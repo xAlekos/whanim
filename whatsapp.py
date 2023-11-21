@@ -88,7 +88,7 @@ AsciiAnimsStructure.loadfromfolder(AnimList)
 driver = initialize_web_driver(user_data="user-data-dir=C:/Users/User/AppData/Local/Google/Chrome/User Data",
                                site="https://web.whatsapp.com/")
 input()
-contatto = trova_contatto("Orazio D’Arrigo", driver)
+contatto = trova_contatto("Nome contatto", driver)
 text_box_chat = trova_text_box("/html"
                                "/body/div[1]/div/div/div[5]"
                                "/div/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]/p")
